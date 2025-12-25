@@ -1,78 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Varada Dhabe | Quantum ML & Probabilistic Computing</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Varada Dhabe</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 <style>
-body {margin:0; background:#0b0e14; color:#e6e6e6; font-family:Inter, sans-serif;}
-.container {max-width:900px; margin:auto; padding:50px 25px;}
-h1,h2 {color:#7dd3fc;}
-a {color:#38bdf8; text-decoration:none;}
-.card {background:#0f172a; border:1px solid #1e293b; border-radius:14px; padding:25px; margin-bottom:24px;}
-.badge {display:inline-block; background:#020617; border:1px solid #1e293b; border-radius:20px; padding:6px 14px; margin:5px 6px 0 0; font-size:14px;}
-.footer {text-align:center; color:#64748b; margin-top:60px;}
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: #0b0f14;
+  color: #e6e6eb;
+  line-height: 1.7;
+}
+a { color: #7aa2ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 1.2rem;
+  color: #b3b3c6;
+}
+.section {
+  margin-top: 80px;
+}
+.section h2 {
+  color: #7aa2ff;
+  margin-bottom: 15px;
+}
+.card {
+  background: #111722;
+  padding: 25px;
+  border-radius: 14px;
+  margin-top: 20px;
+}
+.tag {
+  display: inline-block;
+  background: #1a2233;
+  color: #9fb2ff;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  margin-right: 6px;
+}
+.footer {
+  text-align: center;
+  color: #777;
+  margin-top: 100px;
+}
 </style>
 </head>
 
 <body>
 <div class="container">
 
-<h1>Varada Dhabe</h1>
-<p><b>Machine Learning • Quantum Computing • Probabilistic Hardware</b><br>
-B.Tech ECE @ PES University | Photonic VQA Researcher</p>
+<section class="hero">
+  <h1>Varada Dhabe</h1>
+  <p>
+    Machine Learning & Quantum Computing Researcher<br>
+    Bayesian Optimization • Probabilistic Computing • Photonic Hardware
+  </p>
+  <p>
+    <a href="mailto:varada0104@gmail.com">Email</a> · 
+    <a href="https://github.com/Varada01">GitHub</a> · 
+    <a href="https://linkedin.com/in/varada01">LinkedIn</a>
+  </p>
+</section>
 
-<p>
-<a href="mailto:varada0104@gmail.com">Email</a> · 
-<a href="https://github.com/Varada01">GitHub</a> · 
-<a href="#">LinkedIn</a>
-</p>
+<section class="section">
+  <h2>What I Work On</h2>
+  <div class="card">
+    I design **learning-based optimization systems** for probabilistic and quantum-photonic hardware.  
+    My work focuses on:
+    <ul>
+      <li>Bayesian optimization for NP-hard problems</li>
+      <li>Hardware-aware ML agents</li>
+      <li>Variational Quantum Algorithms on photonic processors</li>
+      <li>Probabilistic inference under noise & uncertainty</li>
+    </ul>
+  </div>
+</section>
 
-<div class="card">
-<h2>About</h2>
-<p>
-I work on machine learning for probabilistic and quantum-photonic computing systems. My focus is on Bayesian optimisation, parameter learning, and hybrid quantum–classical models for NP-hard optimisation problems and safety-critical ML.
-</p>
-</div>
+<section class="section">
+  <h2>Featured Projects</h2>
 
-<div class="card">
-<h2>Research Focus</h2>
-<span class="badge">Bayesian Optimisation</span>
-<span class="badge">Probabilistic Computing</span>
-<span class="badge">Quantum ML</span>
-<span class="badge">Photonic Hardware</span>
-<span class="badge">VQAs</span>
-<span class="badge">NP-Hard Optimisation</span>
-</div>
+  <div class="card">
+    <h3>Photonic Processor for Variational Quantum Algorithms</h3>
+    <p>
+      Built a reconfigurable nonlinear photonic processor to run VQAs using hardware-mappable parameters.
+      Developed Bayesian metrics and parameter-mapping pipelines for stable optimization.
+    </p>
+    <span class="tag">Quantum</span>
+    <span class="tag">Photonics</span>
+    <span class="tag">Optimization</span>
+  </div>
 
-<div class="card">
-<h2>Selected Work</h2>
-<ul>
-<li><b>Programmable Photonic Processor for VQAs</b> — ML-driven parameter optimisation and photonic mapping for quantum-inspired algorithms.</li>
-<li><b>Sepsis Risk Prediction on ORBIT</b> — Bayesian inference mapped onto probabilistic computing hardware.</li>
-<li><b>Quantum ML for HEP</b> — Hybrid quantum-classical models for jet tagging and state fidelity learning.</li>
-<li><b>Deep Learning for Drug–Target Affinity</b> — Bi-LSTM + MoE framework for molecular binding prediction.</li>
-</ul>
-</div>
+  <div class="card">
+    <h3>Bayesian Optimization on ORBIT Probabilistic Hardware</h3>
+    <p>
+      Developed ML agents to predict optimal hardware parameters for NP-hard optimization tasks using Bayesian optimization and surrogate modeling.
+    </p>
+    <span class="tag">Bayesian</span>
+    <span class="tag">Probabilistic Computing</span>
+  </div>
 
-<div class="card">
-<h2>Currently Working On</h2>
-<ul>
-<li>Benchmarking Bayesian optimisation strategies for probabilistic solvers against classical ML baselines.</li>
-<li>Hardware-aware parameter learning for photonic VQA implementations.</li>
-</ul>
-</div>
+  <div class="card">
+    <h3>Real-Time Sepsis Risk Prediction</h3>
+    <p>
+      Designed Bayesian networks for uncertainty-aware clinical decision support, benchmarked against classical ML models.
+    </p>
+    <span class="tag">Healthcare</span>
+    <span class="tag">Bayesian Networks</span>
+  </div>
+</section>
 
-<div class="card">
-<h2>Publications & Writing</h2>
-<p>Draft technical articles in preparation on Bayesian optimisation for probabilistic computing platforms.</p>
-</div>
+<section class="section">
+  <h2>Current Focus</h2>
+  <div class="card">
+    I am currently benchmarking my probabilistic ML models against classical ML baselines
+    while preparing them for deployment on quantum-photonic hardware.
+  </div>
+</section>
+
+<section class="section">
+  <h2>Open To</h2>
+  <div class="card">
+    Research internships · ML engineering roles · Quantum computing collaborations · Applied research
+  </div>
+</section>
 
 <div class="footer">
-© 2025 Varada Dhabe · varada01.github.io
+  © 2025 Varada Dhabe
 </div>
 
 </div>
 </body>
 </html>
+
